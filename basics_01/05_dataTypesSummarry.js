@@ -37,5 +37,28 @@ console.log(typeof bigNumber); // bigint
 console.log(typeof myFunction); // function
 console.log(typeof heros); // object
 
+//==================Memory=======================
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myEmail = "akib453.com";
+let anotherName = myEmail;
+anotherName = "Samrath Saree"
+
+console.log(anotherName);
+console.log(myEmail);
+
+let userOne = {
+
+    email : "samrathsaree@gmail.com",
+    upi : "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "akibjawed@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
